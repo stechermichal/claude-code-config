@@ -1,0 +1,1 @@
+Review my unstaged changes using the unstaged-diff-reviewer agent. Check for code quality, potential bugs, and best practices. Most importantly, ensure that any changes are consistent with the existing codebase patterns, conventions, and architectural style. Suggest improvements that align with how the rest of the codebase is structured.

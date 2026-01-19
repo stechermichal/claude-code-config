@@ -1,0 +1,1 @@
+Perform a comprehensive pre-commit review of my staged changes using the staged-changes-reviewer agent. Check commit coherence, completeness (tests, docs), code quality, and potential issues. Most importantly, ensure that all changes are consistent with the existing codebase patterns, conventions, and architectural style. Verify this commit is ready to enter the project history.

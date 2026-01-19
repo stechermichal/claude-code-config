@@ -1,0 +1,21 @@
+# Session data
+todos/
+history.jsonl
+statsig/
+projects/
+session-env/
+shell-snapshots/
+debug/
+cache/
+plans/
+file-history/
+paste-cache/
+telemetry/
+ide/
+plugins/
+downloads/
+.anthropic/
+stats-cache.json
+
+# OS files
+.DS_Store

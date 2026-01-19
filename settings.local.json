@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(git clone:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(chmod:*)",
+      "Bash(ls:*)",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp remove:*)",
+      "Bash(claude mcp list:*)",
+      "mcp__figma__get_figma_data",
+      "Bash(brew list:*)",
+      "WebFetch(domain:www.alza.cz)",
+      "WebFetch(domain:techpp.com)",
+      "Bash(zellij setup:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}
