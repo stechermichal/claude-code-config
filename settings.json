@@ -109,6 +109,7 @@
       "mcp__playwright__playwright_screenshot",
       "Bash(curl:*)",
       "Bash(python3:*)",
+      "Bash(psql:*)",
       "Bash(for:*)",
       "Bash(while read file)",
       "Bash(done)",
