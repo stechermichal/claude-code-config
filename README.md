@@ -41,19 +41,19 @@ Set up terminal notifications so you get macOS alerts when Claude needs permissi
 ## Settings
 
 `settings.json` includes:
-- 100+ pre-approved permissions for common dev tasks (git, yarn, npm, node, gh, file ops)
+- 100+ pre-approved permissions for common dev tasks (git, yarn, npm, node, gh, file ops) - some of these may be a bit yolo, review them yourself to see if you're comfortable with them
 - Git-aware status line showing model, branch, and uncommitted changes
 - Hooks configuration
 - Enabled MCP servers (context7, puppeteer, sequential-thinking, mcp-deepwiki, chrome-devtools)
 
 ## Use Git Worktrees
 
-If you aren't using git worktrees with Claude Code, you're doing it wrong. Worktrees let you:
+Git worktrees are giga useful - you never have to stash again and you can have a bunch of Claude Code sessions doing work on different branches. Worktrees let you:
 - Work on multiple branches simultaneously without stashing
 - Have Claude work on a feature while you review another branch
 - Keep your main repo clean while experimenting
 
-The `/worktree` and `/cleanup-worktrees` commands make this workflow seamless.
+The `/worktree` and `/cleanup-worktrees` commands make this workflow easier.
 
 ## Mobile Setup
 
