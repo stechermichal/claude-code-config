@@ -14,7 +14,7 @@ My Claude Code settings, custom commands, and agents. This is my actual `~/.clau
 
 - **`/typecheck-fast`** - Fast TypeScript check on modified files only. Runs `tsc --noEmit` just on what you changed, not the whole project. Useful when Claude edits files and doesn't realize it introduced type errors.
 
-- **`/catchup-context`** - Load full project context. Reads CLAUDE.md, package.json, database schema, recent migrations, current branch, commits, and diffs. Summarizes where you are and what's next.
+- **`/catchup-context`** - Load full project context. Reads CLAUDE.md, package.json, database schema, recent migrations, current branch, commits, and diffs. Summarizes where you are and what's next. I use this when starting a new session on a branch that already had some work done, or often after running `/compact`.
 
 - **`/translation-assist`** - Extract translation keys, find empty English translations, generate 3 suggestions for each, let you pick or write your own.
 
